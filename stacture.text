@@ -1,0 +1,26 @@
+project-root/
+│
+├── src/
+│   ├── config/
+│   │   ├── database.js
+│   │   └── swagger.js
+│   │
+│   ├── controllers/
+│   │   └── userController.js
+│   │
+│   ├── models/
+│   │   └── userModel.js
+│   │
+│   ├── routes/
+│   │   └── userRoutes.js
+│   │
+│   ├── middleware/
+│   │   ├── validationMiddleware.js
+│   │   └── errorHandler.js
+│   │
+│   └── utils/
+│       └── passwordUtils.js
+│
+├── server.js
+├── package.json
+└── .env

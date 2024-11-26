@@ -1,0 +1,39 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "_moduleAliases": {
+    "@config": "src/config",
+    "@models": "src/models",
+    "@controllers": "src/controllers",
+    "@routes": "src/routes",
+    "@middleware": "src/middleware",
+    "@utils": "src/utils"
+  },
+  "scripts": {
+    "start": "node -r module-alias/register server.js",
+    "dev": "nodemon -r module-alias/register server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "module-alias": "^2.2.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
